@@ -9,8 +9,8 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'sample v2.step',
-/* time_stamp */ '2023-02-25T09:49:07+03:00',
+/* name */ 'sample v1.step',
+/* time_stamp */ '2023-02-25T14:23:48+03:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v19.2',
@@ -524,15 +524,15 @@ SOLID_ANGLE_UNIT()
 #471=PRODUCT_DEFINITION_SHAPE('',$,#474);
 #472=SHAPE_REPRESENTATION('',(#286),#464);
 #473=PRODUCT_DEFINITION_CONTEXT('part definition',#478,'design');
-#474=PRODUCT_DEFINITION('sample','sample v2',#475,#473);
+#474=PRODUCT_DEFINITION('sample','sample v1',#475,#473);
 #475=PRODUCT_DEFINITION_FORMATION('',$,#480);
-#476=PRODUCT_RELATED_PRODUCT_CATEGORY('sample v2','sample v2',(#480));
+#476=PRODUCT_RELATED_PRODUCT_CATEGORY('sample v1','sample v1',(#480));
 #477=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#478);
 #478=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #479=PRODUCT_CONTEXT('part definition',#478,'mechanical');
-#480=PRODUCT('sample','sample v2',$,(#479));
+#480=PRODUCT('sample','sample v1',$,(#479));
 #481=PRESENTATION_STYLE_ASSIGNMENT((#482));
 #482=SURFACE_STYLE_USAGE(.BOTH.,#483);
 #483=SURFACE_SIDE_STYLE('',(#484));
